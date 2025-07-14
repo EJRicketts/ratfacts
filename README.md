@@ -1,4 +1,4 @@
-# 🐀 Rat Facts
+# 🐀 Rat Fact 🐀
 
 A simple, elegant website that displays a different rat fact each day. Built as a static site with some hidden interactive features
 
