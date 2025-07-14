@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>🐀</title>
+  <!-- Google Fonts -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap">
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 class="title">
+        <span class="rat-emoji" id="ratEmoji1">🐀</span> Rat Fact <span class="rat-emoji" id="ratEmoji2">🐀</span>
+      </h1>
+      <h2 id="dateBtn">
+        <span id="date"></span>
+      </h2>
+      <p id="fact" class="fact">Loading…</p>
+      <div id="ratStats" class="rat-stats" style="display: none;">
+        <h3 class="stats-heading">🏙️ NYC Rat Data</h3>
+        <div class="stat-item">
+          <span class="stat-label">This year:</span>
+          <span id="nycRatCount" class="stat-value">Loading...</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Same time last year:</span>
+          <span id="nycRatCountPrev" class="stat-value">Loading...</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Change:</span>
+          <span id="nycRatChange" class="stat-value">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <p class="dedication" id="secretBtn">For Elissavet &lt;3</p>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
